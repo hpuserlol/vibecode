@@ -1,0 +1,38 @@
+# === 1. SECRETS & API KEYS (NEVER UPLOAD) ===
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# === 2. C++ / COMPETITIVE PROGRAMMING JUNK ===
+*.exe
+*.out
+*.o
+*.obj
+tempCodeRunnerFile.*
+
+# === 3. WEB / NODE.JS / VIBE-CODING APPS ===
+node_modules/
+.next/
+out/
+dist/
+build/
+.turbo/
+.vercel/
+*.tsbuildinfo
+
+# === 4. PYTHON / AI SCRIPTS ===
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# === 5. OS & EDITOR CLUTTER ===
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
